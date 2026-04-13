@@ -1,0 +1,33 @@
+{
+  "name": "space-editor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.2.0",
+    "@babylonjs/gui": "^9.2.0",
+    "@babylonjs/loaders": "^9.2.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "clsx": "^2.1.1",
+    "immer": "^11.1.4",
+    "lucide-react": "^1.8.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0"
+  }
+}
